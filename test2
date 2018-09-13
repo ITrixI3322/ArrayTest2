@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body> 
+
+
+
+<script>
+	
+	var str = 'All GPS satellites 2broadcast at the same 2 frequencies, 1.57542 GHz - L1 signal, and 1.2276 GHz - L2 signal';
+
+	var arr = str.split(' ').filter((elem)=>{
+		if(Number(elem)){
+			return true;
+		}
+	})
+
+
+	console.log(arr);
+
+</script>
+
+</body>
+</html>
